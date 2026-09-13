@@ -7,7 +7,9 @@ def subsetting_with_loc():
     pass
 
 def main():
-    subsetting_with_loc()
+    df = subsetting_with_loc()
+    print(df.shape)
+    print(df.head())
 
 if __name__ == "__main__":
     main()
